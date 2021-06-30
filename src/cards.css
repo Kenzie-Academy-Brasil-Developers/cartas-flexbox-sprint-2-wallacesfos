@@ -93,8 +93,3 @@ body{
           max-width: 710px;
         }
       }
-    
-
-      dd::before{
-        content: ", "; font-weight: bold;
-      }
