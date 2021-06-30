@@ -6,6 +6,11 @@ html {
     background-color: #FFFFFF;
 }
 
+body{
+  display: flex;
+  justify-content: center;
+}
+
 .icon {color: #BCD2DA; }
 
 .card {
@@ -82,10 +87,14 @@ html {
           max-width: 320px;
         }
       }
-      
+
       @media (min-width: 769px) { 
         .cardGroup{
           max-width: 710px;
         }
       }
     
+
+      dd::before{
+        content: ", "; font-weight: bold;
+      }
